@@ -289,7 +289,6 @@ The provided simulation files should compile and run. However, they only work co
 - `rdt_sim 1000 0.1 100 0 0 0.02 0` - there is no packet loss or reordering, but there is packet corruption in the underlying link medium.
 - `rdt_sim 1000 0.1 100 0.02 0.02 0.02 0` - there could be packet loss, corruption, or reordering in the underlying link medium.
 
-Of course, your goal is to make the last test case work. Keep in mind that even if your program works, it may still occasionally report errors due to the limitation of checksumming. Your program, however, should never report errors when there is no packet corruption in the underlying link medium. If your program works for some cases with parameters differing from the above examples, please specify these cases in your writeup to get partial credits.
 
 ## Authors
 Go-back-N implemented by Yubao Liu
