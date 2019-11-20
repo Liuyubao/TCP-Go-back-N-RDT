@@ -15,7 +15,7 @@ I implemented the sending and receiving side of a reliable data transport (RDT) 
 
 # 2.Design explanation
 ## 2.1Implemented Routines
-I modified two files (MyRdtSender.java and MyRdtReceiver.java) by enhancing three methods for handling requests to send data from the upper layer, and receipt of data from the lower layer for both sender and receiver. The routines are detailed below. Such routines in real life would be part of the operating system.
+The routines are detailed below. Such routines in real life would be part of the operating system.
  * (Sender) public void receiveFromUpperLayer(byte[] message);
  * (Sender) public void receiveFromLowerLayer(Packet packet);
  * (Sender) public void onTimeout();
